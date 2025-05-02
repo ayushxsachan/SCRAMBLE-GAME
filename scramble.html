@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Scramble Game</title>
+  <link rel="stylesheet" href="scramble.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🔠 Word Scramble Game</h1>
+    <p id="round-info">Round: 1 / 5</p>
+    <p id="scrambled-word">Loading...</p>
+    <input type="text" id="guess-input" placeholder="Your guess" />
+    <button onclick="checkGuess()">Submit</button>
+    <p id="message"></p>
+    <p id="attempts-left">Attempts Left: 3</p>
+    <p id="score">Score: 0</p>
+  </div>
+
+  <script src="scramble.js"></script>
+</body>
+</html>
